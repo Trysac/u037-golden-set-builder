@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+golden-set-builder = "golden_set_builder.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u037-golden-set-builder"
 Source = "https://github.com/Trysac/u037-golden-set-builder"

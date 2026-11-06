@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Added golden-set-builder: JSONL log reading with dedupe, regex PII scrubbing with typed placeholders, seeded stratified sampling, a detector self-check, annotation export/merge and a CLI (`python -m golden_set_builder build|merge`).
 - Initial project structure from the factory utility template.
