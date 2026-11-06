@@ -9,9 +9,11 @@
 | hatchling | Simple, standards-based build backend; no setup.py. |
 | ruff | Lint and format in one fast tool. |
 | mypy (strict) | Catches type errors before release; the package ships `py.typed`. |
-| pytest + pytest-cov | De facto standard test runner with branch coverage. |
+| pytest + pytest-cov | Test runner with branch coverage. |
 | gitleaks | Secret scanning locally and in CI. |
 | GitHub Actions + Dependabot | Thin CI wrapper over the local gates; weekly dependency updates. |
+
+Runtime dependencies: none. The standard library provides json, hashlib, random, re, unicodedata, tempfile, argparse and logging.
 
 ## Discarded
 
